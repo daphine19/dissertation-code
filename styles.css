@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #0096FF;
+    --background-color: #F9F6EE;
+    --secondary-background-color: #FFFFF0;
+    --text-color: #000000;
+    --font: sans-serif;
+  }
+  
+  /* Apply the theme to Streamlit elements */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font);
+  }
+  
+[data-testid=metric-container] {
+    box-shadow: 0 0 4px #686664;
+}
+
+.plot-container>div {
+    box-shadow: 0 0 2px #686664;
+    padding: 5px;
+    border-color: #686664;
+  
+}
+
+.col-container {
+    font-weight: italic;
+    font-size: 15px;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    margin-right: 10px;
+}
